@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 3</title>
+    <title>Portfolio</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -22,12 +22,12 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
+              src="./assets/png/asad.png"
               alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Asad</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -84,16 +84,14 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 3</h1>
+        <h1 class="heading-primary">Portfolio</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            This project provides a backend server designed to host and manage portfolio data for developers. 
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://github.com/asadr3hman/portfolio" class="btn btn--bg" target="_blank">Live Link</a>
         </div>
       </div>
     </section>
@@ -102,7 +100,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="./assets/portapi.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -111,49 +109,50 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                <p class="project-details__desc-para"><strong>Portfolio Project</strong> is a Node.js-based backend server designed to host and manage portfolio data for developers. This project enables users to register, log in, and securely manage their personal portfolio, including sections for projects, skills, accomplishments, education, experience, testimonials, and certifications. It provides a comprehensive solution for developers to showcase their work and track their career growth efficiently.</p>
               </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
+              <h3 class="project-details__content-title">Features</h3>
+              <ul class="project-details__desc-para">
+                <li><strong>User Registration and Login:</strong> Secure user authentication and authorization.</li>
+                <li><strong>Portfolio Management:</strong> Create and manage portfolio entries such as projects, skills, and achievements.</li>
+                <li><strong>RESTful API:</strong> A robust API for all functionalities, ensuring seamless data handling.</li>
+                <li><strong>Security Features:</strong> Includes rate limiting, XSS protection, and CORS handling to ensure data security.</li>
+              </ul>
+              <h3 class="project-details__content-title">API Endpoints</h3>
+              <ul class="project-details__desc-para">
+                <li><code>POST /api/v1/auth/register</code>: Register a new user.</li>
+                <li><code>POST /api/v1/auth/login</code>: Log in an existing user.</li>
+                <li><code>POST /api/v1/projects</code>: Create a new project entry.</li>
+                <li><code>GET /api/v1/projects</code>: Retrieve all projects.</li>
+                <li><code>GET /api/v1/projects/:id</code>: Get a specific project by ID.</li>
+                <li><code>PUT /api/v1/projects/:id</code>: Update a project entry.</li>
+                <li><code>DELETE /api/v1/projects/:id</code>: Delete a project entry.</li>
+                <li><code>POST /api/v1/skills</code>: Add a new skill.</li>
+                <li><code>GET /api/v1/skills</code>: Get all skills.</li>
+                <li><code>POST /api/v1/accomplishments</code>: Add an accomplishment.</li>
+                <li><code>GET /api/v1/accomplishments</code>: Get all accomplishments.</li>
+              </ul>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
+                <div class="skills__skill">NodeJs</div>
+                <div class="skills__skill">Express</div>
+                <div class="skills__skill">MonogoDB</div>
+                <div class="skills__skill">Postman</div>
                 <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
               <a
-                href="#"
+                href="https://github.com/asadr3hman/portfolio"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
                 >Live Link</a
               >
               <a
-                href="#"
+                href="https://github.com/asadr3hman/portfolio"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
@@ -209,19 +208,11 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Asad</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+              A Software Engineer, passionate about creating innovative solutions across mobile, web, machine learning, and cybersecurity.
             </p>
           </div>
-        </div>
-
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
         </div>
       </div>
     </footer>
